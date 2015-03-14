@@ -16,7 +16,7 @@ object ProjectBuild extends Build {
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-target:jvm-1.6"),
       libraryDependencies ++= Seq(
         "org.slf4j" % "slf4j-api" % "1.7.5" % "compile",
-        "org.apache.kafka" %% "kafka" % "0.8.2.0" % "compile"
+        "org.apache.kafka" %% "kafka" % "0.8.2.1" % "compile"
           exclude("org.jboss.netty", "netty")
           exclude("com.sun.jmx", "jmxri")
           exclude("com.sun.jdmk", "jmxtools")
